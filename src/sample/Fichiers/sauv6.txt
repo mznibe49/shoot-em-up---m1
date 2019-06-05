@@ -1,0 +1,10 @@
+SauvegardeJeu
+Score:0
+Niveau:1
+Temps:8 s
+Vie:3
+NomJoueur:dsfd
+p:210.0,72.0,true,file:/home/andressito/Bureau/M1/S2/interfaceGraphique/PIG2019/out/production/PIG2019/sample/Icone/fs1.png
+d0:139.0,122.0,true
+d1:109.0,243.0,true
+d2:317.0,284.0,true

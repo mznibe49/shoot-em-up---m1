@@ -1,0 +1,15 @@
+SauvegardeJeu
+Score:1
+Temps:1 s
+Vie:5
+NomJoueur:ijklf
+p:167.0,420.0,false,file:/C:/Users/Andressito/IdeaProjects/test1/out/production/test1/sample/Icone/pist/yellow.png
+d0:614.0,214.0,true
+d1:51.0,136.0,true
+d2:644.0,82.0,false
+o0:358.0,54.0
+b0:290.0,150.0
+b1:281.0,188.0
+b2:254.0,236.0
+b3:221.0,280.0
+b4:197.0,316.0

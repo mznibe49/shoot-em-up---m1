@@ -1,0 +1,14 @@
+SauvegardeJeu
+S:12
+N:7
+T:46 s
+V:5
+NJ:ddd
+NJ:ddd
+VD:0.2
+p:77.0,414.0,true,file/home/gowther/Desktop/classic%20pig/pig/PIG2019/out/production/PIG2019/sample/Icone/pist/shield/yellow.png
+o0:157.0,245.0
+o1:535.0,45.0
+q:316.0,0.0,4
+k0:569.5,75.0
+k1:380.5,75.0

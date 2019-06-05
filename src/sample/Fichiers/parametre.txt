@@ -1,0 +1,6 @@
+gauche:Left
+droite:Right
+haut:Up
+bas:Down
+space:Space
+vitesseDemons:0.0

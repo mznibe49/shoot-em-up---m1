@@ -1,0 +1,12 @@
+SauvegardeJeu
+Score:3
+Niveau:1
+Temps:20 s
+Vie:3
+NomJoueur:sfdsd
+p:384.0,237.0,true,file:/home/andressito/Bureau/M1/S2/interfaceGraphique/PIG2019/out/production/PIG2019/sample/Icone/f1.png
+d0:143.0,325.0,false
+d1:41.0,61.0,false
+d2:4.0,22.0,true
+d3:185.0,235.0,false
+d4:78.0,35.0,false

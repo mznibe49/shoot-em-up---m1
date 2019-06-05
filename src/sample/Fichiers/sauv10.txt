@@ -1,0 +1,12 @@
+relocation du pisto à faire pour soit demon ou obstacle (fait)
+binder les vitesses,  (vitesse Demon ok)
+gerer les niveaux  ===> fait
+reprendre la fonction de sauvegarde  ==> fait
+
+
+buuuggg
+quand pisto mode protection, rencontre avec un demon , il meurt  revoir la fonction blood_splatter (ok)
+fonction dead dans obstacle , obstacle jamais supp (ok)
+quand vie=; il n'a pas le temps de le mettre à jour dans la classe Controleur
+le cerceau n'est pas en pause lors de la mise en pause ===> (ok)
+animation dead continue en pause (obstacle)

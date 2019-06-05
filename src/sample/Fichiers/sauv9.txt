@@ -1,0 +1,13 @@
+SauvegardeJeu
+Score:5
+Temps:6 s
+Vie:5
+NomJoueur:kjdf
+p:137.0,420.0,false,file:/C:/Users/Andressito/IdeaProjects/test1/out/production/test1/sample/Icone/pist/yellow.png
+o0:376.0,266.0
+o1:354.0,67.0
+b0:334.0,590.0
+b1:334.0,636.0
+b2:334.0,674.0
+b3:334.0,716.0
+b4:334.0,758.0

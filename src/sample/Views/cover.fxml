@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Ellipse?>
+
+<BorderPane id="borderpane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.CoverController">
+    <center>
+        <Pane>
+
+            <ImageView fx:id="back" />
+            <VBox alignment="CENTER" layoutX="272.0" layoutY="29.0" prefHeight="410.0" prefWidth="249.0">
+
+                <HBox alignment="CENTER">
+                    <Button onAction="#leftChoice">
+                        <HBox.margin>
+                            <Insets right="20.0" />
+                        </HBox.margin>
+                    </Button>
+                    <Ellipse fx:id="pistolero" fill="cornflowerblue" layoutX="350.0" layoutY="350.0" radiusX="120.0" radiusY="72.0">
+                    </Ellipse>
+                    <Button onAction="#rightChoice">
+                        <HBox.margin>
+                            <Insets left="20.0" />
+                        </HBox.margin>
+                    </Button>
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </HBox>
+
+                <HBox alignment="CENTER">
+                    <Label style="-fx-text-fill: white; " text="Pseudo : " />
+                    <TextField fx:id="texteF" maxWidth="110">
+                    </TextField>
+                    <VBox.margin>
+                        <Insets bottom="10.0" right="25.0" />
+                    </VBox.margin>
+                    
+                </HBox>
+
+                <Label fx:id="notavailable" text="taille pseudo inferieur a 3" visible="false" />
+
+                <Button onAction="#demarrer" text="Demarrer une partie">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </Button>
+
+                <Button onAction="#charger" prefHeight="26.0" prefWidth="149.0" text="Charger une partie">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </Button>
+
+
+                <Button onAction="#param" prefHeight="26.0" prefWidth="147.0" text="Paramètres du jeu">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </Button>
+
+                <Button onAction="#score" prefHeight="26.0" prefWidth="147.0" text="Meilleur Score">
+                    <VBox.margin>
+                        <Insets bottom="10.0" />
+                    </VBox.margin>
+                </Button>
+            <padding>
+               <Insets top="100.0" />
+            </padding>
+            </VBox>
+        </Pane>
+    </center>
+
+    <bottom>
+
+    </bottom>
+    <top>
+
+    </top>
+</BorderPane>

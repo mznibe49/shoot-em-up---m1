@@ -1,0 +1,7 @@
+SauvegardeJeu
+Score:4
+Temps:9 s
+Vie:5
+NomJoueur:ddd
+p:141.0,387.0,false,file:/home/gowther/Desktop/classic%20pig/pig/PIG2019/out/production/PIG2019/sample/Icone/pist/yellow.png
+d0:67.0,295.0,false

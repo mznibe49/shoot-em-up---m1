@@ -1,0 +1,7 @@
+gauche:Left
+droite:Right
+haut:Up
+bas:Down
+space:Space
+vitessePistolero:0.0
+vitesseDemons:0.0

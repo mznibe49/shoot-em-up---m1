@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderpaneG" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.GameController">
+    <!--<Insets top="10" right="10" bottom="10" left="10"/>-->
+    <top>
+        <MenuBar prefHeight="30.0" prefWidth="594.0">
+            <menus>
+                <Menu text="Jeu">
+                    <items>
+                        <MenuItem accelerator="r" onAction="#play" text="Play" />
+                        <MenuItem accelerator="p" onAction="#pause" text="Pause" />
+                        <MenuItem accelerator="Ctrl+S" onAction="#sauvegarder" text="Sauvegarder" />
+                        <SeparatorMenuItem />
+                        <MenuItem accelerator="Ctrl+Q" onAction="#quitter" text="Quitter" />
+                    </items>
+                </Menu>
+                <Menu text="Help">
+                    <items>
+                        <MenuItem accelerator="Ctrl+A" text="A propos" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <left>
+        <VBox>
+
+
+        </VBox>
+    </left>
+
+    <center>
+
+        <Pane fx:id="pane" focusTraversable="true" minHeight="395.0" minWidth="400.0" onKeyPressed="#keyPressed" onKeyReleased="#keyReleased">
+            <ImageView fx:id="back" />
+            <HBox prefHeight="35.0" prefWidth="800.0">
+                <Label text="Temps : " textFill="blue">
+                    <VBox.margin>
+                        <Insets top="60.0" />
+                    </VBox.margin>
+                    <HBox.margin>
+                        <Insets left="70.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Verdana Bold" size="16.0" />
+                    </font>
+                </Label>
+                <Label fx:id="tempsjeu" text=" " textFill="blue">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+
+                <Label text="Vie : " textFill="blue">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <HBox.margin>
+                        <Insets left="30.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Verdana Bold" size="16.0" />
+                    </font>
+                </Label>
+                <Label fx:id="Vie" textFill="blue">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+
+                <Label text="Score : " textFill="blue">
+                    <VBox.margin>
+                        <Insets top="60.0" />
+                    </VBox.margin>
+                    <HBox.margin>
+                        <Insets left="30.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Verdana Bold" size="16.0" />
+                    </font>
+                </Label>
+                <Label fx:id="score" textFill="blue">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+
+
+
+                <Label text="Nom : " textFill="blue">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <HBox.margin>
+                        <Insets left="30.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Verdana Bold" size="16.0" />
+                    </font>
+                </Label>
+                <Label fx:id="name" textFill="blue">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+
+
+                <Label text="Niveau : " textFill="blue">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <HBox.margin>
+                        <Insets left="30.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Verdana Bold" size="16.0" />
+                    </font>
+                </Label>
+                <Label fx:id="niveauLabel" textFill="blue">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+
+
+                <!--<Label text="V. Dem : " textFill="blue">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <HBox.margin>
+                        <Insets left="20.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font name="Verdana Bold" size="16.0" />
+                    </font>
+                </Label>
+
+                
+                <Slider fx:id="vitesseDem" majorTickUnit="0.2" max="1.0" min="0.0" orientation="HORIZONTAL" showTickLabels="true" showTickMarks="true" value="0.0">
+                    <HBox.margin>
+                        <Insets left="5.0" />
+                    </HBox.margin>
+                </Slider>
+
+                <padding>
+                    <Insets top="10.0" />
+                </padding> -->
+
+            </HBox>
+        </Pane>
+    </center>
+    <bottom>
+         <VBox prefWidth="800.0">
+            <HBox prefHeight="76.0" prefWidth="718.0">
+                <Label text=" Vitesse démons">
+                    <HBox.margin>
+                        <Insets left="260.0" top="25.0" />
+                    </HBox.margin>
+                </Label>
+                <Slider fx:id="vitesseDem" majorTickUnit="0.2" max="1.0" min="0.0" orientation="HORIZONTAL" showTickLabels="true" showTickMarks="true" value="0.0">
+                    <HBox.margin>
+                        <Insets left="18.0" top="20.0" />
+                    </HBox.margin>
+                </Slider>
+                <VBox.margin>
+                    <Insets />
+                </VBox.margin>
+            </HBox>
+
+        </VBox>
+    </bottom>
+
+    <right>
+        <VBox>
+        </VBox>
+    </right>
+</BorderPane>
